@@ -1,9 +1,0 @@
-cd front
-
-if test -d build;
-    then
-        echo "Lanching PingWay"
-        serve -s build > /dev/null & npm run electron
-    else
-        echo "Please launch ./install first."
-fi
